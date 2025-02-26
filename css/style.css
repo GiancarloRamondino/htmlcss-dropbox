@@ -4,19 +4,75 @@
     border: border-box;
 }
 /*header*/
+header{
+    height: 100px;
+    position: fixed;
+    top: 1;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.margin-20{
+    margin: 20px;
+}
 
 /*Main*/
 
-/*Footer*/
+main{
+    background-color: black;
+}
 
+/*Footer*/
+footer{
+    background-color: purple;
+}
 
 
 
 /*Utility*/
-
 .open-sansus{
     font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
     font-style: normal;
-  }
+}
 
+.d-inline-block{
+    display: inline-block;
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+.alin-it{
+    align-items: center;
+}
+
+.t-alin-r{
+    text-align: right;
+}
+
+/*color*/
+
+.bcolor-red{
+    background-color: red;
+}
+
+.bcolor-blu{
+    background-color: blue;
+}
+
+.bcolor-green{
+    background-color: green;
+}
+
+.j-between{
+    justify-content: space-between;
+}
+.color-white{
+    color: white;
+}
+.trasparente{
+    background-color: rgba(240, 248, 255, 0);
+    border-color: rgba(255, 0, 0, 0);
+}
