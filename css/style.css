@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    border: border-box;
+    box-sizing: border-box;
 }
 /*header*/
 header{
@@ -52,6 +52,10 @@ main{
 .content2{
     width: 70%;
 }
+
+.n-position{
+    position: none;
+}
 .r-position{
     position: relative;
     top: 100px;  right: 30px;
@@ -97,9 +101,7 @@ footer{
     font-style: normal;
 }
 
-.n-position{
-    position: none;
-}
+
 
 .font-title{
     font-size: 60px;
