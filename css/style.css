@@ -139,6 +139,10 @@ footer{
     align-items: stretch;
 }
 
+.t-alin-l{
+    text-align: left;
+}
+
 .t-alin-r{
     text-align: right;
 }
@@ -188,9 +192,7 @@ footer{
 
 }
 
-.t-alin-l{
-    text-align: start;
-}
+
 
 .padding-10{
     padding: 10px;
@@ -210,6 +212,11 @@ footer{
 
 .border{
     border: solid 1px rgb(112, 111, 111);
+}
+
+.border1{
+    border-left: solid 1px rgb(112, 111, 111);
+    border-right: solid 1px rgb(112, 111, 111);
 }
 
 .border-bottom{
