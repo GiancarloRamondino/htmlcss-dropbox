@@ -135,6 +135,10 @@ footer{
     align-items: center;
 }
 
+.alin-strech{
+    align-items: stretch;
+}
+
 .t-alin-r{
     text-align: right;
 }
