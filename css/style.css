@@ -57,7 +57,7 @@ main{
 
 .r-position-arrow{
     position: relative;
-    top: 75px;
+    top: 65px; right: 80px;
 }
 
 .back-partner{
@@ -79,6 +79,10 @@ footer{
 
 .max-width{
     max-width:900px;
+}
+
+.max-width-j{
+    max-width:1000px;
 }
 
 .open-sansus{
@@ -189,10 +193,13 @@ footer{
     padding-bottom: 30px;
     padding-right: 30px;
     padding-top: 30px;
-
 }
 
-
+.padding-top-right-bottom-40{
+    padding-bottom: 50px;
+    padding-right: 55px;
+    padding-top: 50px;
+}
 
 .padding-10{
     padding: 10px;
@@ -220,8 +227,11 @@ footer{
 }
 
 .border-bottom{
-    border-bottom: solid 1px grey;
-    
+    border-bottom: solid 1px grey;  
+}
+
+.border-top{
+    border-top: solid 1px rgb(248, 246, 246);  
 }
 
 /*color*/
@@ -241,6 +251,10 @@ footer{
 
 .bcolor-white{
     background-color: white;
+}
+
+.bcolor-black{
+    background-color: rgb(32, 32, 32);
 }
 
 .color-white{
