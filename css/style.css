@@ -113,6 +113,9 @@ footer{
     margin-bottom: 0px;
 }
 
+.gap{
+    column-gap: 45px;
+}
 
 .wrap{
     flex-wrap: wrap;
