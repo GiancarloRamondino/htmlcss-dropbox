@@ -113,8 +113,12 @@ footer{
     margin-bottom: 0px;
 }
 
-.gap{
+.gap-45{
     column-gap: 45px;
+}
+
+.gap{
+    column-gap: 5px;
 }
 
 .wrap{
